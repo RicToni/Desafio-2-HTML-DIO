@@ -1,6 +1,7 @@
 body{
 	background-color:#D3D4CF;
 	margin: 0px;
+	font-family: "sans-serif";
 }
 /* ----------------------  INICIO HEADER -------------------  */
 header {
@@ -36,6 +37,7 @@ header {
 	background-color: #2C436B;
 	width: 100%;
 	list-style-type: none;
+	margin-bottom: 0;
 	
 	
 }
@@ -67,17 +69,52 @@ header {
 	width: 100%;
 	color: white;
 	text-decoration: none;
-/* -------------------------  FINAL HEADER -------------------------  */
 }
+/* -------------------------  FINAL HEADER -------------------------  */
+/* -------------------------  INICIO SIDE BAR  -------------------------  */
+
 #left-side-bar {
-	border: 1px solid blue;
-	display: flex;
+	
 	float: left;
 	height: 100%;
-	width: 15%;
+	width: 240px;
 	background-color: #D23A66;
+	margin: 0px;
+	padding: 0px;
+	margin: 0px;
 
+}
+#side-bar {
+	list-style-type: none;
+	clear: both;
+	padding: 0px;
+	margin-top: 0;
+}
+#side-bar li {
+	font-size: 1.5em;
+	line-height: 25px;
+	width: 100%;
+	margin: 0px;
 
+}
+#side-bar li a {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8em;
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	width: 200px;
+
+	
+ 
+}
+#side-bar li a:hover {
+	background-color: #3B7CBF;
+	margin-right: 0px;
 }
 
 #main-area {
@@ -107,5 +144,5 @@ header {
 
 
 #container-pai {
-	
+		clear: both;
 }
