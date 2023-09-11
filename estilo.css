@@ -89,6 +89,8 @@ header {
 	clear: both;
 	padding: 0px;
 	margin-top: 0;
+	margin-bottom: 0;
+
 }
 #side-bar li {
 	font-size: 1.5em;
@@ -115,22 +117,26 @@ header {
 #side-bar li a:hover {
 	background-color: #3B7CBF;
 	margin-right: 0px;
-}
 
+
+}
+/* -------------------------  FINAL SIDE BAR  -------------------------  */
+/* -------------------------  INICIO AREA DE NAVEGAÇÃO PRINCIPAL  -------------------------  */
 #main-area {
- 	border: 1px sold green;
- 	display: flex;
+ 	
+ 	display: block;
   	float: right;
- 	width: 85%;
+ 	width: ;
  	background-color: white;
 }
 
 #footer {
-	border: 1px solid yellow;
-	clear: both;
-	height: 50px;
+	color: white;
+	background-color:  #2C436B;
+	clear: both;	
 	width: 100%;
 	text-align: center;
+	padding: 15px;
 }
 
 #menu {
