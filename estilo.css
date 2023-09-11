@@ -1,6 +1,35 @@
 body{
 
 }
+
+header {
+	border: 1px solid red;
+	height: 120px;
+}
+
+#left-side-bar {
+	border: 1px solid blue;
+	display: flex;
+	float: left;
+	height: 100%;
+	width: 15%;
+
+}
+
+#main-area {
+ 	border: 1px sold green;
+ 	display: flex;
+  	float: right;
+ 	width: 85%;
+}
+
+#footer {
+	border: 1px solid yellow;
+	clear: both;
+}
+
+
+
 #container-pai {
-	background-color: blue;
+	
 }
