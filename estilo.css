@@ -124,10 +124,11 @@ header {
 /* -------------------------  INICIO AREA DE NAVEGAÇÃO PRINCIPAL  -------------------------  */
 #main-area {
  	
- 	display: block;
-  	float: right;
- 	width: ;
+ 	display: flex;
+  	float: right;	
  	background-color: white;
+ 	width: 100%;
+ 	max-width: 82%;
 }
 
 #footer {
@@ -137,6 +138,7 @@ header {
 	width: 100%;
 	text-align: center;
 	padding: 15px;
+	letter-spacing: 1px;
 }
 
 #menu {
@@ -151,4 +153,15 @@ header {
 
 #container-pai {
 		clear: both;
+}
+#nossa-historia {
+	lett
+	display: block;
+	text-align: center;
+	font-size: 1.3em;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-color:#D3D4CF ;
+	color:#2C436B ;
+
 }
