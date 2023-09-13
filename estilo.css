@@ -124,13 +124,16 @@ header {
 /* -------------------------  INICIO AREA DE NAVEGAÇÃO PRINCIPAL  -------------------------  */
 #main-area {
  	
- 	display: flex;
+ 	display: block ;
   	float: right;	
  	background-color: white;
- 	width: 100%;
- 	max-width: 82%;
+ 	width: 76%;
+ 	margin-top: 0;
+	padding-top: 0;
 }
-
+#container-correcao {
+	width: auto;
+}
 #footer {
 	color: white;
 	background-color:  #2C436B;
@@ -161,8 +164,8 @@ header {
 	font-size: 1.3em;
 	padding-left: 70px;
 	padding-right: 70px;
-	background-color:#D3D4CF ;
-	color:#2C436B ;
+	background-color: #D3D4CF ;
+	color: #2C436B ;
 
 }
 

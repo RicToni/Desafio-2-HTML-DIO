@@ -51,6 +51,7 @@
 				<img src="images/footer.png">
 				<h2> Preencha o formulário que nossa equipe entrará em contato:</h2>
 				<form>
+					<fieldset>
 					<legend>Formulário de Contato:</legend>
 					<h3> <label for="nome">Nome:</h3>
 					<input id="nome" type="text" name="nome">
@@ -77,10 +78,14 @@
 					</select>
 					<br>
 					<h3>Melhor meio de contato:</h3>
-					
-
-
+					<label for="contato-email" > Email: </label>
+					<input type="radio" id="contato" name="meiocontato" value="email" >
+					<br>
+					<label for="contato-telefone" > Telefone: </label>
+					<input type="radio" id="contato" name="meiocontato" value="telefone"
+					</fieldset>
 				</form>
+
 			</div>
 		</nav>
 		<footer id="footer">
