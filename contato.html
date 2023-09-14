@@ -50,9 +50,9 @@
 			<div id="form-ctt" style="background-color: white">
 				<img src="images/footer.png">
 				<h2> Preencha o formulário que nossa equipe entrará em contato:</h2>
-				<form>
-					<fieldset>
-					<legend>Formulário de Contato:</legend>
+				<form id="formulario-contato">
+				<fieldset>
+					<legend style="text-transform: uppercase; color: white;">Formulário de Contato:</legend>
 					<h3> <label for="nome">Nome:</h3>
 					<input id="nome" type="text" name="nome">
 					<br>
@@ -82,8 +82,9 @@
 					<input type="radio" id="contato" name="meiocontato" value="email" >
 					<br>
 					<label for="contato-telefone" > Telefone: </label>
-					<input type="radio" id="contato" name="meiocontato" value="telefone"
-					</fieldset>
+					<input type="radio" id="contato" name="meiocontato" value="telefone">
+					<input type="submit" value="Enviar"
+				</fieldset>
 				</form>
 
 			</div>
